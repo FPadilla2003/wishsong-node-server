@@ -1,0 +1,12 @@
+{
+  "name": "wishsong-node-server",
+  "version": "1.0.0",
+  "description": "A custom-made server application to support Wishsong",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Felipe Padilla",
+  "license": "ISC"
+}

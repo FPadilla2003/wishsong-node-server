@@ -53,8 +53,8 @@ function UserRoutes(app) {
     app.put("/api/users/:userId", updateUser);
     app.delete("/api/users/:userId", deleteUser);
     app.post("/api/users/signup", signup);
-    app.post("/api/users/signin", login);
+    app.post("/api/users/login", login);
     app.post("/api/users/signout", signout);
-    app.post("/api/users/account", profile);
+    app.post("/api/users/profile", profile);
 }
 export default UserRoutes;
